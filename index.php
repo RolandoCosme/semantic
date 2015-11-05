@@ -1,1 +1,1 @@
-<?php require('rc_portfolio_main.html'); ?>
+<?php require('seman.html'); ?>
