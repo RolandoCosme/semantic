@@ -1,4 +1,30 @@
-nav {
-	border-width: 1;
-	background-color: gray;
+h1{
+	color: #00FF00;
+}
+
+nav, section  {
+	border:5px groove;
+	border-color: #990066;
+	margin: 10px;
+	padding: 10px;
+	color: #00FF00;
+}
+
+nav{
+	position: relative;
+}
+
+nav ul {
+	margin: 0;
+
+}
+
+nav ul li {
+	display: inline;
+}
+
+Body {
+	background-image: url("http://7-themes.com/data_images/out/6/6789426-fantastic-sushi-wallpaper.jpg");
+	background-size: auto;
+	
 }
