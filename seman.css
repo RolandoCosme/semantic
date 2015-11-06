@@ -1,8 +1,8 @@
-h1{
+h1, h3{
 	color: #00FF00;
 }
 
-nav, section  {
+section  {
 	border:5px groove;
 	border-color: #990066;
 	margin: 10px;
@@ -11,20 +11,28 @@ nav, section  {
 }
 
 nav{
-	position: relative;
+	border:5px groove;
+	border-color: #990066;
+	position: fixed;
+  	text-align: center;
+  	color: #00FF00;
+  	background-color: rgba(255,255,255,.5);
 }
 
-nav ul {
-	margin: 0;
 
-}
-
-nav ul li {
+nav li {
 	display: inline;
+
 }
 
 Body {
 	background-image: url("http://7-themes.com/data_images/out/6/6789426-fantastic-sushi-wallpaper.jpg");
 	background-size: auto;
+	background-attachment: fixed;
 	
+}
+
+section {
+		margin-left: 220px;
+		margin-right: 500px;
 }
